@@ -4,12 +4,17 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./styles/style.css">
 
         <title>Portifólio</title>
     </head>
     <body>
-        <header></header>
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a href="index.html" class="cabecalho__menu__link">Home</a>
+                <a href="about.html" class="cabecalho__menu__link">Sobre mim</a>
+            </nav>
+        </header>
         <main class="apresentacao">
             <section class="apresentacao__conteudo">
                 <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio
@@ -22,17 +27,29 @@
                     especialidade
                     em <strong>PHP, SQL, HTML, CSS</strong>. Ajudo pequenos
                     negócios e designers a
-                    colocarem em prática boas ideias. Vamos conversar ?
+                    colocarem em prática boas ideias. :)
                 </p>
                 <div class="apresentacao__links">
-                    <a class="apresentacao__links__link" href="https://www.instagram.com/ericdourado_/"
-                        target="_blank">Instagram</a>
-                    <a class="apresentacao__links__link" href="https://github.com/ericdourado" target="_blank">Github</a>
+                    <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                    <a class="apresentacao__links__link" href="https://www.instagram.com/ericdourado_/" target="_blank">
+                        <img src="./assets/instagram.png"> 
+                        Instagram
+                    </a>
+                    <a class="apresentacao__links__link" href="https://github.com/ericdourado" target="_blank">
+                        <img src="./assets/github.png"> 
+                        Github
+                    </a>
+                    <a class="apresentacao__links__link" href="https://www.linkedin.com/in/eric-dourado-de-santana-dos-santos-ab3826211/" target="_blank">
+                         <img src="./assets/linkedin.png"> 
+                         Linkedin 
+                    </a>
                 </div>
             </section>
-            <img src="./alguem.png" alt="Alguem programando">
+            <img src="./assets/alguem.png" alt="Alguem programando">
 
         </main>
-        <footer></footer>
+        <footer class="rodape">
+            <p>Desenvolvido by eu mesmo ahaha</p>
+        </footer>
     </body>
 </html>
